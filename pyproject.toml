@@ -1,0 +1,13 @@
+[project]
+name = "snapvol"
+version = "0.2"
+dependencies = [
+    "snapcast",
+]
+
+[project.scripts]
+snapvol = "snapvol:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

@@ -4,7 +4,12 @@ Small program to adjust [Snapcast](https://github.com/badaix/snapcast) volume us
 
 ## Usage
 
+### CLI
 
+
+### Interactive mode
+
+![Interactive mode](screenshot.png)
 
 ## Installation
 

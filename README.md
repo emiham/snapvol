@@ -31,4 +31,6 @@ options:
 
 ## Installation
 
-
+```bash
+pip install snapvol
+```

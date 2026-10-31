@@ -34,3 +34,15 @@ options:
 ```bash
 pip install snapvol
 ```
+
+## Tests
+
+After installing the package (`pip install -e .`), run:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The tests exercise CLI parsing, target selection, volume changes and renaming
+with an in-memory server; they do not connect to a Snapserver or change real
+client settings. No additional test dependencies are needed.

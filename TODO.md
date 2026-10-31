@@ -1,7 +1,0 @@
-- [x] Add groups as options (probably as another argument)
-- [ ] Autocompletion? Would have to work for client names
-- [x] Print on no argument, flag for volume
-- [x] Negative clients (all except x)
-- [ ] Add tests
-- [x] Only show volumes for chosen clients if passing `-c` and `-l`
-- [ ] Publish to PyPI

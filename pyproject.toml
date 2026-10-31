@@ -6,7 +6,7 @@ dependencies = [
 ]
 
 [project.scripts]
-snapvol = "snapvol:main"
+snapvol = "snapvol.cli:main"
 
 [build-system]
 requires = ["setuptools"]

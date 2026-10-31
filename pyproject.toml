@@ -1,13 +1,30 @@
 [project]
 name = "snapvol"
 version = "0.3"
+description = "Control Snapcast volume from the command line"
+authors = [
+  { name="Emil Hammarberg", email="emilhammarberg@mailbox.org" },
+]
 dependencies = [
     "snapcast",
+]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Multimedia :: Sound/Audio",
 ]
 
 [project.scripts]
 snapvol = "snapvol.cli:main"
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/emiham/snapvol"
+Issues = "https://github.com/emiham/snapvol/issues"
